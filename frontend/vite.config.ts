@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  // Relative base required for Capacitor (loads assets from the app bundle, not a server root)
+  base: './',
   plugins: [
     react(),
     VitePWA({
