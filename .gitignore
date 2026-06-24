@@ -109,3 +109,21 @@ TestResults/
 # Claude Code
 # ========================
 .claude/settings.local.json
+
+# ========================
+# Python / Backend
+# ========================
+backend/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/tmp_downloads/
+backend/*.log
+
+# ========================
+# Node / Frontend
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env
