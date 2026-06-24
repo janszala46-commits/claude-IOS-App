@@ -1,0 +1,111 @@
+# ========================
+# Xcode
+# ========================
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Build
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Archives
+*.xcarchive
+
+# ========================
+# Swift Package Manager
+# ========================
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+*.resolved
+
+# ========================
+# CocoaPods
+# ========================
+Pods/
+*.xcworkspace
+!default.xcworkspace
+Podfile.lock
+
+# ========================
+# Carthage
+# ========================
+Carthage/Build/
+
+# ========================
+# fastlane
+# ========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ========================
+# Code Injection
+# ========================
+iOSInjectionProject/
+
+# ========================
+# macOS
+# ========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# ========================
+# Provisioning
+# ========================
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.key
+
+# ========================
+# Simulator
+# ========================
+*.app/
+
+# ========================
+# Test Results
+# ========================
+*.xcresult
+TestResults/
+
+# ========================
+# Environment
+# ========================
+.env
+.env.local
+*.env
+
+# ========================
+# IDE
+# ========================
+.idea/
+*.swp
+*~
+
+# ========================
+# Claude Code
+# ========================
+.claude/settings.local.json

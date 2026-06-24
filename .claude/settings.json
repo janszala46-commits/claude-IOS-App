@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild:*)",
+      "Bash(xcrun:*)",
+      "Bash(swift:*)",
+      "Bash(swiftlint:*)",
+      "Bash(xcbeautify:*)",
+      "Bash(pod:*)",
+      "Bash(git:*)",
+      "Bash(open:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(echo:*)",
+      "Bash(plutil:*)",
+      "Bash(instruments:*)",
+      "Bash(simctl:*)"
+    ],
+    "deny": []
+  },
+  "mcpServers": {}
+}
